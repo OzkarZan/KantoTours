@@ -1,0 +1,71 @@
+
+        :root {
+            --bg-color: #e1ddd6; /* Beige fondo*/
+            --card-bg: #ece9e2;
+            --text-dark: #1a1a1a;
+        }
+        /* Estilos generales */
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-dark);
+            font-family: 'Tahoma', sans-serif;
+        }
+        /* Estilos para los títulos */
+        h1, h2, h3, .navbar-brand {
+            font-family: 'Tahoma', sans-serif; 
+            font-weight: bold;
+        }
+        /* el navbar */
+        .navbar {
+            background-color: var(--bg-color);
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+        }
+
+        /* Sección Hero */
+        .hero-section {         
+            margin-top: 50px;
+        }
+
+        /* Estilo de las Cards de productos  */
+        .pokemon-card {
+            background-color: var(--card-bg);
+            border: 1px solid #c9c5bc;
+            border-radius: 8px;
+            padding: 20px;
+            height: 100%;
+        }
+        /* Botón de carrito */
+        .btn-cart {
+            background-color: #f0f0f0;
+            border: 1px solid #999;
+            font-size: 0.8rem;
+            padding: 2px 10px;
+        }
+        /* Pie de página */
+        footer {
+            background-color: #d1cdc3;
+            border-top: 1px solid #c0bcb3;
+        }
+        .floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000; /* Asegura que esté por encima de todo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    transition: transform 0.2s;
+  }
+
+  .floating-btn:hover {
+    transform: scale(1.1);
+  }
