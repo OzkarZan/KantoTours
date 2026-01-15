@@ -1,62 +1,82 @@
-¡KANTOTOURS! - La Aventura te Espera 🎒✨
-¡Bienvenido a KantoTours, el portal definitivo para todo Entrenador Pokémon que desee explorar la región de Kanto! Este proyecto es una página web estática diseñada para ofrecer paquetes de turismo, guías estratégicas y consejos de viaje por las ciudades más emblemáticas del mundo Pokémon.
+# ¡KANTOTOURS! - La Aventura te Espera 🎒✨
 
-🚀 Características
-Diseño Responsivo: Optimizado para dispositivos móviles y escritorio mediante Bootstrap 5.3.
+¡Bienvenido a **KantoTours**, el portal definitivo para todo Entrenador Pokémon que desee explorar la región de Kanto! Esta plataforma ofrece guías detalladas, mapas y consejos esenciales para transformar tu viaje en una experiencia legendaria.
 
-Experiencia Inmersiva: Incluye música ambiental de la franquicia con controles de usuario.
+## 🚀 Características
+* **Diseño Responsivo:** Construido con **Bootstrap 5.3** para una visualización perfecta en cualquier dispositivo.
+* **Experiencia Inmersiva:** Incluye música ambiental de la franquicia con un botón de control dinámico (Play/Pause).
+* **Secciones Principales:**
+    * **Sitios Populares:** Información turística sobre Pueblo Paleta, Pueblo Lavanda y Ciudad Azafrán.
+    * **Paquetes Maestros:** Tres niveles de servicio: *Inicio de Aventura*, *Ruta de las Medallas* y *Maestro Pokémon*.
+    * **Testimonios:** Reseñas de entrenadores veteranos como Rojo G.
+* **Interactividad:** Sistema de simulación de compra y formulario de contacto con validaciones en JavaScript.
 
-Secciones Detalladas:
+## 🛠️ Tecnologías Utilizadas
+* **HTML5 & CSS3:** Estructura semántica y estilos personalizados.
+* **Bootstrap 5.3:** Framework para el diseño, rejilla y componentes de navegación.
+* **Bootstrap Icons:** Iconografía para redes sociales y controles.
+* **JavaScript (Vanilla):** Lógica para la gestión de audio, carrito de compras y envío de formularios.
 
-Inicio: Introducción a la agencia.
-
-Sitios Populares: Información sobre Pueblo Paleta, Pueblo Lavanda y Ciudad Azafrán.
-
-Paquetes: Tres niveles de productos (Inicio, Ruta de Medallas y Maestro Pokémon).
-
-Testimonios: Recomendaciones de entrenadores legendarios.
-
-Contacto: Formulario funcional (simulado) para consultas.
-
-Interactividad: Alertas de confirmación de compra y manejo de eventos mediante JavaScript.
-
-🛠️ Tecnologías Utilizadas
-HTML5: Estructura semántica del contenido.
-
-CSS3: Estilos personalizados y diseño visual (alojados en css/style.css).
-
-Bootstrap 5.3: Framework para el sistema de rejilla (grid), navegación y componentes.
-
-JavaScript (Vanilla): Lógica para el carrito de compras, control de audio y validación de formularios.
-
-Bootstrap Icons: Librería de iconos vectoriales.
-
-📂 Estructura del Proyecto
-Plaintext
-
+## 📂 Estructura de Archivos
+```text
 /
-├── index.html          # Archivo principal de la página
+├── index.html          # Documento principal
 ├── css/
-│   └── style.css       # Estilos personalizados (fondo, tarjetas, etc.)
-├── img/                # Recursos visuales (logos, mapas, fotos de ciudades)
+│   └── style.css       # Hoja de estilos personalizada
+├── img/                # Recursos multimedia
 │   ├── LogoKantoTours.png
-│   ├── ThemeSong2.mp3  # Banda sonora ambiental
-│   └── ...             # Imágenes de los destinos y paquetes
-└── README.md           # Documentación del proyecto
-⚙️ Instalación y Uso
-Clona el repositorio:
+│   ├── ThemeSong2.mp3  # Música ambiental
+│   └── ...             # Imágenes de destinos y productos
+└── README.md           # Documentación
 
-Bash
+Aquí tienes el código en formato Markdown listo para copiar y pegar en tu archivo README.md:
 
-git clone https://github.com/tu-usuario/kantotours.git
-Abre el archivo: Simplemente haz doble clic en index.html en tu navegador preferido o usa la extensión Live Server en VS Code.
+Markdown
 
-📝 Notas de Desarrollo
-Audio: El audio está configurado para iniciarse automáticamente (autoplay), pero incluye un botón flotante para encender/apagar la música manualmente debido a las políticas de reproducción de los navegadores modernos.
+# ¡KANTOTOURS! - La Aventura te Espera 🎒✨
 
-Simulación: Los botones de "Comprar Ya" y el formulario de contacto utilizan alert() y confirm() para simular procesos de backend.
+¡Bienvenido a **KantoTours**, el portal definitivo para todo Entrenador Pokémon que desee explorar la región de Kanto! Esta plataforma ofrece guías detalladas, mapas y consejos esenciales para transformar tu viaje en una experiencia legendaria.
 
-👨‍💻 Sobre el Autor
-Proyecto liderado por el CEO de KantoTours. Puedes conocer más sobre nuestro trabajo en: Ozkar45 WordPress
+## 🚀 Características
+* **Diseño Responsivo:** Construido con **Bootstrap 5.3** para una visualización perfecta en cualquier dispositivo.
+* **Experiencia Inmersiva:** Incluye música ambiental de la franquicia con un botón de control dinámico (Play/Pause).
+* **Secciones Principales:**
+    * **Sitios Populares:** Información turística sobre Pueblo Paleta, Pueblo Lavanda y Ciudad Azafrán.
+    * **Paquetes Maestros:** Tres niveles de servicio: *Inicio de Aventura*, *Ruta de las Medallas* y *Maestro Pokémon*.
+    * **Testimonios:** Reseñas de entrenadores veteranos como Rojo G.
+* **Interactividad:** Sistema de simulación de compra y formulario de contacto con validaciones en JavaScript.
+
+## 🛠️ Tecnologías Utilizadas
+* **HTML5 & CSS3:** Estructura semántica y estilos personalizados.
+* **Bootstrap 5.3:** Framework para el diseño, rejilla y componentes de navegación.
+* **Bootstrap Icons:** Iconografía para redes sociales y controles.
+* **JavaScript (Vanilla):** Lógica para la gestión de audio, carrito de compras y envío de formularios.
+
+## 📂 Estructura de Archivos
+```text
+/
+├── index.html          # Documento principal
+├── css/
+│   └── style.css       # Hoja de estilos personalizada
+├── img/                # Recursos multimedia
+│   ├── LogoKantoTours.png
+│   ├── ThemeSong2.mp3  # Música ambiental
+│   └── ...             # Imágenes de destinos y productos
+└── README.md           # Documentación
+⚙️ Instalación
+Descarga o clona este repositorio.
+
+Asegúrate de mantener la estructura de carpetas para que las imágenes y la música carguen correctamente.
+
+Abre index.html en tu navegador.
+
+📞 Contacto
+Nuestra sede física se encuentra en:
+
+Dirección: Avenida de la Medalla Tierra, Nº 8, Ciudad Verde, Kanto.
+
+Horario: Lunes a Viernes de 9:00 a 17:00 (Cerrado fines de semana por combates).
+
+Pokégear: 555-KANTO-GO.
 
 © 2026 ¡KANTOTOURS! - La mejor decisión de tu aventura Pokémon.
