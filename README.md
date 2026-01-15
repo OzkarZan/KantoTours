@@ -16,6 +16,23 @@
 * **Bootstrap 5.3:** Framework para el diseño, rejilla y componentes de navegación.
 * **Bootstrap Icons:** Iconografía para redes sociales y controles.
 * **JavaScript (Vanilla):** Lógica para la gestión de audio, carrito de compras y envío de formularios.
+* ⚙️ Instalación
+Descarga o clona este repositorio.
+
+Asegúrate de mantener la estructura de carpetas para que las imágenes y la música carguen correctamente.
+
+Abre index.html en tu navegador.
+
+📞 Contacto
+Nuestra sede física se encuentra en:
+
+Dirección: Avenida de la Medalla Tierra, Nº 8, Ciudad Verde, Kanto.
+
+Horario: Lunes a Viernes de 9:00 a 17:00 (Cerrado fines de semana por combates).
+
+Pokégear: 555-KANTO-GO.
+
+© 2026 ¡KANTOTOURS! - La mejor decisión de tu aventura Pokémon.
 
 ## 📂 Estructura de Archivos
 ```text
@@ -63,20 +80,4 @@ Markdown
 │   ├── ThemeSong2.mp3  # Música ambiental
 │   └── ...             # Imágenes de destinos y productos
 └── README.md           # Documentación
-⚙️ Instalación
-Descarga o clona este repositorio.
 
-Asegúrate de mantener la estructura de carpetas para que las imágenes y la música carguen correctamente.
-
-Abre index.html en tu navegador.
-
-📞 Contacto
-Nuestra sede física se encuentra en:
-
-Dirección: Avenida de la Medalla Tierra, Nº 8, Ciudad Verde, Kanto.
-
-Horario: Lunes a Viernes de 9:00 a 17:00 (Cerrado fines de semana por combates).
-
-Pokégear: 555-KANTO-GO.
-
-© 2026 ¡KANTOTOURS! - La mejor decisión de tu aventura Pokémon.
